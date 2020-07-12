@@ -52,7 +52,7 @@ public class RegistrationController {
         if(currentUser != null) {
             model.addAttribute("principal", currentUser.getUser());
         }
-        model.addAttribute("doctor", new User());
+        model.addAttribute("user", new User());
         return "registration/doctorRegisterForm";
     }
 

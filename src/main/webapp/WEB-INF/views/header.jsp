@@ -11,10 +11,10 @@
                     <a class="nav-link" href="/login">Login</a>
                 </li>
                 <li class="nav-item ml-4">
-                    <a class="nav-link" href="/patientRegistration">Register new patient</a>
+                    <a class="nav-link" href="/registerNewPatient">Register new patient</a>
                 </li>
                 <li class="nav-item ml-4">
-                    <a class="nav-link" href="/doctorRegistration">Register new doctor</a>
+                    <a class="nav-link" href="/registerNewDoctor">Register new doctor</a>
                 </li>
             </ul>
         </nav>
