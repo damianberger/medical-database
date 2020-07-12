@@ -32,6 +32,16 @@
             <form:input class="nav-link2" path="email" placeholder="Email"/>
         </label><form:errors path="email"/>
     </div>
+    <div>
+        <label>
+            <form:input class="nav-link2" path="pwz" placeholder="Pwz"/>
+        </label>
+    </div>
+    <div>
+        <label>
+            <form:input class="nav-link2" path="specialty" placeholder="Specialty"/>
+        </label>
+    </div>
     <input class="nav-link2" type="submit" value="Register">
 </form:form>
 </body>

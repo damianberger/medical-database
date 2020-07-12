@@ -15,22 +15,43 @@
     <div>
         <label>
             <form:input class="nav-link2" path="firstName" placeholder="First Name"/>
-        </label><form:errors path="firstName"/>
+        </label>
     </div>
     <div>
         <label>
             <form:input class="nav-link2" path="lastName" placeholder="Last Name"/>
-        </label><form:errors path="lastName"/>
-    </div>
+        </label>
     <div>
         <label>
             <form:input class="nav-link2" path="password" placeholder="Password" type="password"/>
-        </label><form:errors path="password"/>
+        </label>
     </div>
     <div>
         <label>
             <form:input class="nav-link2" path="email" placeholder="Email"/>
-        </label><form:errors path="email"/>
+        </label>
+    </div>
+    <div>
+        <label>
+            <form:radiobutton path="sex" value="M"/>Male
+
+            <form:radiobutton path="sex" value="F"/>Female
+        </label>
+    </div>
+    <div>
+        <label>
+            <form:input class="nav-link2" path="pesel" placeholder="Pesel"/>
+        </label>
+    </div>
+    <div>
+        <label>
+            <form:input class="nav-link2" path="phoneNumber" placeholder="Phone number"/>
+        </label>
+    </div>
+    <div>
+        <label>
+            <form:input class="nav-link2" path="weight" placeholder="Weight"/>
+        </label>
     </div>
     <input class="nav-link2" type="submit" value="Register">
 </form:form>

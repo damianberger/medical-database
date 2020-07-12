@@ -26,6 +26,18 @@ public class User {
 
     private String password;
 
+    private char sex;
+
+    private Long pesel;
+
+    private Long phoneNumber;
+
+    private Integer weight;
+
+    private Integer pwz;
+
+    private String specialty;
+
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(
             name = "user_role",

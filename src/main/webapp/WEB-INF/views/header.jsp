@@ -31,12 +31,6 @@
                     <a class="nav-link" href="/drug/list">Drugs</a>
                 </li>
                 <li class="nav-item ml-4">
-                    <a class="nav-link" href="/treatment/list">Treatments</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link" href="/prescription/list">Prescriptions</a>
-                </li>
-                <li class="nav-item ml-4">
                     <a class="nav-link" href="/">Contact Patient :: TO DO</a>
                 </li>
                 <li class="nav-item ml-4">
@@ -53,7 +47,7 @@
             <a class="navbar-brand"><b> Welcome </b> <c:out value="${principal.email}"/></a>
             <ul class="nav nounderline text-uppercase">
                 <li class="nav-item ml-4">
-                    <a class="nav-link" href="/profile">Patient profile</a>
+                    <a class="nav-link" href="/profile">Patient profile :: TO DO</a>
                 </li>
                 <li class="nav-item ml-4">
                     <a class="nav-link" href="/">Contact Doctor :: TO DO</a>
